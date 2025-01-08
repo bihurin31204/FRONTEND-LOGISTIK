@@ -2,7 +2,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 const api = axios.create({
-  baseURL: "https://backend-logistik.vercel.app",
+  baseURL: "https://backend-logistik-production.up.railway.app",
 });
 
 // Tambahkan interceptor untuk menyisipkan token
